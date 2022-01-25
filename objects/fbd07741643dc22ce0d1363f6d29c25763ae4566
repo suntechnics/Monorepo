@@ -1,0 +1,7 @@
+[map "2fde4e85-1530-3bf4-b4ea-3ce72106e5be"]
+	object = cbd8c44f90c6b02844bb0160bf6604afe559be6f
+	type = include + expand tree
+[map "f2c46e48-fbf9-37aa-b709-4a063a16852b"]
+	object = b0e118f981b81ce1fd695eb074c7f16dfcf65f27
+	path = Lib1
+	type = expand module
