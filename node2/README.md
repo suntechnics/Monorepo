@@ -9,7 +9,7 @@
   </a>
 </p>
 
-Node.js (a.k.a. "Node") is an **INCREDIBLE** open-source, cross-platform, JavaScript runtime environment. It
+Node.js (a.k.a. "Node") is an **MOST INCREDIBLE** open-source, cross-platform, JavaScript runtime environment. It
 executes JavaScript code outside of a browser. For more information on using
 Node.js, see the [Node.js Website][].
 
