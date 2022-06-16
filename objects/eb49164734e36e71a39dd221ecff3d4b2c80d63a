@@ -1,0 +1,4 @@
+[map "ab866c05-d351-3bea-91ee-d4af59c7dc90"]
+	excludePath = *.cc, *.h
+	object = 9088c064a54b4886142accf3ed81e7ca8928759a
+	type = exclude

@@ -1,0 +1,6 @@
+[object]
+	state = initial
+[map "09168c52-6716-364d-a070-924fb90dc344"]
+	object = 8f55f9b5c67dabcddbc3acbf32b54d02828114f0
+	path = App2
+	type = extract module

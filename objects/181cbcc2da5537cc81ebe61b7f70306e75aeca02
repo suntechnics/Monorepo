@@ -1,0 +1,6 @@
+[object]
+	state = initial
+[map "0702a9cc-5f42-34bb-b6a2-de2178ff45c3"]
+	excludePath = *.cc, *.h
+	object = 522da79459f5cf5ae1a4c05bc741c29faa215838
+	type = include
