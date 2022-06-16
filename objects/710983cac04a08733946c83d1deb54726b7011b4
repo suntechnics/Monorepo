@@ -1,0 +1,25 @@
+[module "ca849122-b3d1-352a-8f29-1baf98d96b74"]
+	conflict = request-pull
+	path = App2
+	pull = merge rebase
+	pull = squash always
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://ght/451928926
+[module "62c1f7b2-81c4-330f-a2da-8337d2650185"]
+	conflict = request-pull
+	excludePath = *.cc,*.h
+	path = Lib2node
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://ght/451929163
+[map "68331290-f042-3e4a-b73c-05f9dca29865"]
+	object = e1c69f1ab4fa335a4485299044d61d480fe65ef4
+	path = App2
+	type = extract module
+[map "e90e4e69-bdb1-38bb-9337-b04aa8fcd0c3"]
+	excludePath = *.cc,*.h
+	object = 7504d2620dff4bf4c9e240548a7d2a62b928b98b
+	path = Lib2node
+	stage = sync
+	type = extract module + exclude

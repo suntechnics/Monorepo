@@ -2,8 +2,13 @@
 	excludePath = *.cc,*.h
 	object = e86cb0099429c9f44c9801d1444f1ce989a0d62f
 	type = include
-[map "1a377460-8ecc-3e3a-a0f7-cfb34b005729"]
+[map "60dae126-fa69-30ce-8d80-3c59589f29f8"]
 	excludePath = *.cc,*.h
-	object = 036f5f11c45687fcfbcd0fabb5f24b74d5552cf9
+	object = 710983cac04a08733946c83d1deb54726b7011b4
+	path = Lib2node
+	type = include + expand module
+[map "b3b5ae99-14c1-3ca6-9aca-6a6f620543a8"]
+	excludePath = *.cc,*.h
+	object = cf51771378d416a1db40d985cc5b5df271e92251
 	path = Lib2node
 	type = include + expand module
