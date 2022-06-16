@@ -1,24 +1,3 @@
-[module "ca849122-b3d1-352a-8f29-1baf98d96b74"]
-	conflict = request-pull
-	path = App2
-	pull = merge rebase
-	pull = squash always
-	ref = if refs/heads/main sync refs/heads/main
-	url = agnostic://ght/451928926
-[module "62c1f7b2-81c4-330f-a2da-8337d2650185"]
-	conflict = request-pull
-	excludePath = *.cc, *.h
-	path = Lib2node
-	pull = merge subtree
-	pull = squash never
-	ref = if refs/heads/main sync refs/heads/main
-	url = agnostic://ght/451929163
-[map "3ad3afce-6f90-3b9d-aedb-38e0a84c4763"]
-	excludePath = *.cc, *.h
-	object = 9088c064a54b4886142accf3ed81e7ca8928759a
-	path = Lib2node
-	stage = sync
-	type = extract module + exclude
 [map "9a196752-bd37-31a9-84c2-c4e060c6b4fb"]
 	object = 35241c68b33e116dc19557143f2e1ab7c04ad2eb
 	path = App2
@@ -28,3 +7,24 @@
 	object = 5110ddeebd35ebe99dd1e2d7e04cdebb83fa7796
 	path = App2
 	type = extract module
+[module "ca849122-b3d1-352a-8f29-1baf98d96b74"]
+	conflict = request-pull
+	path = App2
+	pull = merge rebase
+	pull = squash always
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://ght/451928926
+[module "62c1f7b2-81c4-330f-a2da-8337d2650185"]
+	conflict = request-pull
+	excludePath = *.cc,*.h
+	path = Lib2node
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://ght/451929163
+[map "e90e4e69-bdb1-38bb-9337-b04aa8fcd0c3"]
+	excludePath = *.cc,*.h
+	object = 7504d2620dff4bf4c9e240548a7d2a62b928b98b
+	path = Lib2node
+	stage = sync
+	type = extract module + exclude
