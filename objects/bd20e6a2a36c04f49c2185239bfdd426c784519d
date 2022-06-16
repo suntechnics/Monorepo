@@ -13,13 +13,14 @@
 	pull = squash never
 	ref = if refs/heads/main sync refs/heads/main
 	url = agnostic://ght/451929163
-[map "691be640-932d-303c-851a-0cf658ef1a70"]
-	object = 35241c68b33e116dc19557143f2e1ab7c04ad2eb
-	path = App2
-	type = extract module
 [map "3ad3afce-6f90-3b9d-aedb-38e0a84c4763"]
 	excludePath = *.cc, *.h
 	object = 9088c064a54b4886142accf3ed81e7ca8928759a
 	path = Lib2node
 	stage = sync
 	type = extract module + exclude
+[map "9a196752-bd37-31a9-84c2-c4e060c6b4fb"]
+	object = 35241c68b33e116dc19557143f2e1ab7c04ad2eb
+	path = App2
+	stage = sync
+	type = extract module
