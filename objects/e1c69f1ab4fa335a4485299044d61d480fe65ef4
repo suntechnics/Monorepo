@@ -2,3 +2,7 @@
 	object = 659c2907405ef7fdd51a073de2ba874b87ffb447
 	path = App2
 	type = expand module
+[map "a9a4b12a-24be-3baf-87b6-662256714f17"]
+	object = 710983cac04a08733946c83d1deb54726b7011b4
+	path = App2
+	type = expand module

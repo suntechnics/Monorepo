@@ -4,10 +4,6 @@
 	path = Lib2node
 	stage = sync
 	type = extract module + exclude
-[map "c24f9fbc-8478-3d0c-8583-a0b296816bf2"]
-	object = 6123a57fa113332bebb4af73c04277af806a7c9b
-	path = App2
-	type = extract module
 [module "62c1f7b2-81c4-330f-a2da-8337d2650185"]
 	conflict = request-pull
 	excludePath = *.cc,*.h
@@ -23,3 +19,12 @@
 	pull = squash always
 	ref = if refs/heads/main sync refs/heads/main
 	url = agnostic://ght/451928926
+[map "ed2f35a1-58d0-3295-85d2-644253be9f54"]
+	object = 2597db455faf7451a8c002a936b2b818e0ca2df6
+	path = App2
+	type = extract module
+[map "ec512d1f-6d4e-361e-b0dc-5d0210e52f03"]
+	object = 6123a57fa113332bebb4af73c04277af806a7c9b
+	path = App2
+	stage = pull-request
+	type = extract module
