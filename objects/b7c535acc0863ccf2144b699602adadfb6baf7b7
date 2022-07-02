@@ -1,0 +1,36 @@
+[map "bd2204c7-3ba7-3026-b94b-41d77369a983"]
+	object = a6b45c0cbda960cf72017617f54e5dba41dc784e
+	path = App2
+	stage = sync
+	type = extract module
+[map "90264df1-c4b7-3daa-b6af-ef77b60d79e4"]
+	object = fbd07741643dc22ce0d1363f6d29c25763ae4566
+	path = Lib1
+	stage = sync
+	type = extract module
+[module "ca849122-b3d1-352a-8f29-1baf98d96b74"]
+	conflict = request-pull
+	path = App2
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/451928926
+[module "2263ad49-d6ca-3eb8-8fb2-20dfaf9eccdd"]
+	conflict = request-pull
+	path = Lib1
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/451928624
+[module "eb10717e-da1e-3a7c-aa0d-112f29b7d348"]
+	conflict = request-pull
+	path = App1
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/451928792
+[map "3b532bab-de0e-3750-a4e6-390807452a0c"]
+	object = a863f82f0be690f674e7e87ed3e32f0284f2fc13
+	path = App1
+	stage = sync
+	type = extract module
